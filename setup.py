@@ -24,7 +24,7 @@ setup(
     install_requires=['requests==2.22.0',
                       'pandas==0.24.2',
                       'Unidecode==1.0.23',
-                      'lxml==4.3.3'],
+                      'lxml==4.9.1'],
     data_files=[
         ('equities_es', ['investpy/resources/es/equities.csv']),
         ('funds_es', ['investpy/resources/es/funds.csv']),
